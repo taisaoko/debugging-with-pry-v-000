@@ -1,13 +1,6 @@
 require "pry" 
 def plus_two(num)
-	#num + 2
-	array = [1, 3, 5, 6]
-	
-	remainders = array.each do |num|
-	  num % 3 
-	end 
-	
-	remainders
+	var = num + 2
+	binding.pry
 end
 
-binding.pry
