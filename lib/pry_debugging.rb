@@ -3,7 +3,7 @@ def plus_two(num)
 	#num + 2
 	array = [1, 3, 5, 6]
 	
-	remainders = array.map do |num|
+	remainders = array.each do |num|
 	  num % 3 
 	end 
 	
