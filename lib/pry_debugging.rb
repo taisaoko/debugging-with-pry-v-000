@@ -3,11 +3,11 @@ def plus_two(num)
 	#num + 2
 	array = [1, 3, 5, 6]
 	
-	array.map do |num|
+	remainders = array.map do |num|
 	  num % 3 
 	end 
 	
-	array
+	remainders
 end
 
 binding.pry
