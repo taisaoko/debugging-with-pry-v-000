@@ -4,7 +4,7 @@ def plus_two(num)
 	array = [1, 3, 5, 6]
 	array.each do |num|
 	  even = num % 2 
+	  binding.pry
 	end 
-	binding.pry
 end
 
